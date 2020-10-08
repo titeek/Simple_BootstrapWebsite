@@ -1,0 +1,71 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0px;
+}
+
+.btn--buttonDanger {
+  background-color: #fac4ae;
+  color: #f89778;
+  margin: 5px;
+}
+
+.btn--buttonSuccess {
+  background-color: #b7eddd;
+  color: #96e3c9;
+  margin: 5px;
+}
+
+.btn--buttonPrimary {
+  background-color: #1e96fa;
+  color: white;
+  padding: 15px;
+}
+
+.btn-outline-danger {
+  border-radius: 25px;
+  border: 3px solid;
+  padding: 10px 25px 10px 25px;
+}
+
+.jumbotron {
+  background-color: #f7f8fa;
+}
+
+.jumbotron_h1--topMargin {
+  margin-top: 40px;
+}
+
+.row--topBuffer {
+  margin-top: 80px;
+}
+
+.card__customerCard {
+  background-color: #f3f7fb;
+  border: 0;
+}
+.card__customerCard:hover .customerCard--hrToCustomers {
+  border-top: 3px red solid;
+}
+
+.customerCard--hrToCustomers {
+  border-radius: 50%;
+  border-top: 3px black solid;
+}
+
+.contactUsContainer {
+  background-color: #eee;
+  padding: 120px;
+}
+
+.endingInformations ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.endingInformations a {
+  color: black;
+}
+
+.endingInformations_emailBackground--change {
+  background-color: #f6f7fb;
+}

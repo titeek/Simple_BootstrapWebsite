@@ -1,0 +1,105 @@
+//FONT
+$primaryFont: 'Open Sans', sans-serif;
+
+//COLORS
+$buttonDangerColorBackground: #fac4ae;
+$buttonDangerColorFont: #f89778;
+$buttonSuccessColorBackground: #b7eddd;
+$buttonSuccessColorFont: #96e3c9;
+$buttonPrimaryColorBackground: #1e96fa;
+$buttonPrimaryColorFont: white;
+$jumbotronColor: #f7f8fa;
+$customerCardColor: #f3f7fb;
+$customerCardHrColor: black;
+$customerCardHrHoverColor: red;
+$contactUsColor: #eee;
+
+$footerEmailColor: #f6f7fb;
+$footerAColor: black;
+
+//MAIN_ELEMENTS
+
+body {
+  font-family: $primaryFont;
+  margin: 0px;
+}
+
+
+//BUTTONS
+
+.btn--buttonDanger {
+  background-color: $buttonDangerColorBackground;
+  color: $buttonDangerColorFont;
+  margin: 5px;
+}
+
+.btn--buttonSuccess {
+  background-color: $buttonSuccessColorBackground;
+  color: $buttonSuccessColorFont;
+  margin: 5px;
+}
+
+.btn--buttonPrimary {
+  background-color: $buttonPrimaryColorBackground;
+  color: $buttonPrimaryColorFont;
+  padding: 15px;
+}
+
+.btn-outline-danger {
+  border-radius: 25px;
+  border: 3px solid;
+  padding: 10px 25px 10px 25px;
+}
+
+
+//JUMBOTRON
+
+.jumbotron {
+  background-color: $jumbotronColor;
+}
+
+.jumbotron_h1--topMargin {
+  margin-top: 40px;
+}
+
+//CONTAINER
+
+.row--topBuffer {
+  margin-top: 80px;
+}
+
+.card__customerCard {
+  background-color: $customerCardColor;
+  border: 0;
+
+  &:hover .customerCard--hrToCustomers {
+    border-top: 3px $customerCardHrHoverColor solid;
+  }
+}
+
+.customerCard--hrToCustomers{
+  border-radius: 50%;
+  border-top: 3px $customerCardHrColor solid;
+}
+
+.contactUsContainer {
+  background-color: $contactUsColor;
+  padding: 120px;
+}
+
+.endingInformations {
+  
+  ul {
+  list-style-type: none; 
+  padding: 0;
+  margin: 0; 
+  }
+
+  a {
+    color: $footerAColor;
+  }
+}
+
+.endingInformations_emailBackground--change {
+  background-color: $footerEmailColor;
+}
